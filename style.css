@@ -1,0 +1,15 @@
+body {
+    background-color: royalblue;
+}
+.container {
+    background-color: white;
+}
+.contact {
+    text-align: left;
+}
+.row {
+    margin-left: 0px;
+}
+.message {
+    padding-bottom: 25px;
+}
