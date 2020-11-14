@@ -3,23 +3,45 @@ body {
 }
 .container {
     background-color: white;
+    height: 100vh;
+}
+#profile {
+    width: 250px;
+    height: 200px;
+    margin: 15px;
 }
 #contact {
     text-align: left;
     max-width: 500px;
     margin: auto;
 }
+.card-text {
+    color: grey;
+    
+}
 #portfolio {
     max-width: 500px;
-    margin: auto;
-    
+    margin: auto; 
+}
+#row {
+    margin: 10px;
 }
 .row {
     margin-left: 0px;
 }
 #message {
-    padding-bottom: 50px;
+    padding-bottom: 90px;
+    margin-bottom: 15px;
 }
 article {
     font-size: large;
+}
+@media (max-width: 768px) {
+#portfolio {
+    width: 100%;
+    margin-left: 15px;
+}
+article {
+    
+}
 }
