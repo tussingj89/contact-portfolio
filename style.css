@@ -1,15 +1,25 @@
 body {
-    background-color: royalblue;
+    background-color: grey;
 }
 .container {
     background-color: white;
 }
-.contact {
+#contact {
     text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+#portfolio {
+    max-width: 500px;
+    margin: auto;
+    
 }
 .row {
     margin-left: 0px;
 }
-.message {
-    padding-bottom: 25px;
+#message {
+    padding-bottom: 50px;
+}
+article {
+    font-size: large;
 }
