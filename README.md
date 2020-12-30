@@ -6,6 +6,9 @@ This project focuses on using media break points for a responsive webpage. Thoug
 This file works on any webpage, so the viewing of this project is as simple as following the link listed below.
 https://tussingj89.github.io/contact-portfolio/
 
+# technologys used
+html, css, and bootstrap
+
 
 # easy-to-read grids
 
@@ -39,3 +42,5 @@ Below is a sample of the code using HTML grid layout. As you can see the code is
             <div class="card col-lg-12" id="message">
                 <h4 class="card-text">Message:</h4>
             </div>
+# contact me at:
+tussing40@gmail.com
