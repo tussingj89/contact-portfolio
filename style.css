@@ -1,47 +1,76 @@
+/* all pages  */
 body {
     background-color: grey;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
 }
+.navbar-brand {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    background: #4aaaa5;
+}
+.nav-item {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+}
+    
 .container {
     background-color: white;
     height: 100vh;
 }
+/* profile page  */
+article {
+    font-size: large;
+}
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
 #profile {
     width: 200px;
     height: 200px;
     margin: 15px;
 }
-#contact {
-    text-align: left;
-    max-width: 500px;
-    margin: auto;
+/* contact page  */
+.input{
+    width: 400px;
 }
-.card-text {
-    color: grey;
-    
+#contacts {
+ align-items: baseline;
+
 }
-#portfolio {
-    max-width: 500px;
-    margin: auto; 
-}
-#row {
+/* protfolio page  */
+#images {
+    height: 200px;
+    width: 200px;
     margin: 10px;
 }
-.row {
-    margin-left: 0px;
-}
-#message {
-    padding-bottom: 90px;
-    margin-bottom: 15px;
-}
-article {
-    font-size: large;
-}
-@media screen (max-width: 768px) {
-#portfolio {
+
+@media (max-width: 768px) {
+    .nav-item {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 200px;
+        text-align: center;
+    }
+    .container{
+        height: min-content;
+    }
+    #portfolio {
     width: 100%;
     margin: auto;
-}
-.wrapper {
+    }
+    .wrapper {
     width: 100%;
-}
+    }
 }
