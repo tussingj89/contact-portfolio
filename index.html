@@ -6,9 +6,11 @@
     <title>contact page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -19,14 +21,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">Homepage</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="index2.html" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="index3.html" class="nav-link">Portfolio</a>
                 </li>
 
             </ul>
@@ -35,34 +37,36 @@
     <div class="container">
     <div class="wrapper">
     <article>
-        <h1>About Me</h1>
-        <div class="row">
-            <div class="col-sm-3">
-                <img src="./assets/photo.jpg" alt="profile photo" id="profile"> 
+        <section>
+            <h1>About Me</h1>
+            <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <img src="assets/photo.jpg" alt="profile photo" id="profile"> 
             </div>
-            <div class="col-sm-9">
-                <p>My name is Jack W. Tussing, and I'm currently a diesel mechanic with 15 years' experience. I'm 31 years old, I'm happily married, and I have two dogs and a cat.
-                Throughout my professional career I've lived by the motto, "Never stop learning, and never stop growing." I bring that same level of drive to coding.
+            <div class="col-lg-9">
+                <p>My name is Jack W. Tussing and I'm currently a diesel mechanic with 15 years experience. I'm 31 years old, I'm happily married, and I have two dogs and a cat.
+                Throughout my professional career I've lived by the motto of never stop learning and never stop growing. I strive to bring that same level of drive to coding.
+                </p>
+                <p>Through the course of my career so far i have picked up a long list of skills. These skills have made me a great asset to
+                any team I'm apart of. The most important of thes skills is my ability to adapt easily and pick up skills quickly. 
+                I intend to keep learning and use my new skills to build a new and exciting career. I've been teaching myself to code for the last year, starting with Python, basic HTML/CSS, Javascript, and C++.
+                In my spare time, I love to learn new things and work with my hands.
                 </p>
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Throughout the course of my career so far, I have picked up a long list of skills, which have made me a great asset to
-                        any team I'm a part of. The most important of these qualities is my ability to adapt easily and pick up new skills quickly. 
-                         I intend to keep learning and use what I've learned to build a new and exciting career. I've been teaching myself to code for the last year, starting with Python, basic HTML/CSS, Javascript, and C++.
-                         In my spare time, I love to learn new things and work with my hands.
-                    </p>
+        </section>
+
+            <section>
+                <div id="connect">
+                <h2>Connect with Me</h2>
+                <a href="https://github.com/tussingj89"  target="_blank"><img src="assets/github-mark.png" class="social"></a>
+                <a href="https://www.linkedin.com/in/jack-tussing-0842461b5/"  target="_blank"><img src="assets/LinkedIn_logo.png" class="social"></a>
+                <a href="mailto: tussing40@gmail.com"><img src="assets/email.png" class="social"></a>
+                <a href="assets/Resume.pdf"  target="_blank"><img src="assets/resume.png" class="social">
+                <a href="tel:2602238529" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Call: (260) 223-8529</p></a>
                 </div>
-            </div>
+            </section>
 
             </div>
-            <h3>find me on</h3>
-            <ul>
-                <li>Email: tussing40@gmail.com</li>
-                <li>github: tussingj89</li>
-                <li>linkedin: Jack Tussing</li>
-            </ul>
-        </div>
     </article>
     </div>
     </div>
